@@ -9,3 +9,4 @@ RUN mkdir -p /.config/counterpartyd && chown nobody.nogroup /.config/counterpart
 ENTRYPOINT ["counterpartyd"]
 
 USER nobody
+
